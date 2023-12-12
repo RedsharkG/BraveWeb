@@ -1,0 +1,111 @@
+@font-face {
+    font-family: mainFont;
+    src: url("../Nudista/nudista.otf");
+}
+
+@font-face {
+    font-family: mainFontBold;
+    src: url("../Nudista/nudista-bold.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: mainFont;
+    color: #fff;
+}
+
+body {
+    background: linear-gradient(90deg, #140040 42.99%, #000 91.3%);
+}
+
+.logo{
+    height: 30vh;
+    max-width: 100%;
+}
+
+.head-border {
+    background: rgba(119, 119, 119, 0.17);
+    font-size: 7vw;
+    font-weight: bolder;
+    letter-spacing: 2vw;
+    text-transform: uppercase;
+
+
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-template-rows: 160px;
+    justify-items: center;
+    column-gap: 3vw;
+}
+.head-el-01{
+    justify-self: end;
+    align-self: center;
+}
+.head-el-03{
+    justify-self: start;
+    align-self: center;
+}
+
+.p-tag2{
+    margin: 4vw 3vw;
+    text-align: center;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    line-height: 1.3em;
+}
+/*.p-tag{*/
+/*  display: grid;*/
+/*  grid-template-columns: 1fr 105px 1fr;*/
+/*  grid-template-rows: 100px;*/
+/*  margin: 10px 40px;*/
+/*  !*column-gap: 10px;*!*/
+/*  text-align: justify;*/
+/*  column-gap: 60px;*/
+/*}*/
+/*.p-1{*/
+/*  align-self: center;*/
+/*  justify-self: end;*/
+/*}*/
+/*.p-2{*/
+/*  align-self: center;*/
+/*  justify-self: end;*/
+/*}*/
+
+.pic-container{
+    /*max-width: 700px;*/
+    text-align: center;
+    margin: 50px;
+
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 40px 230px 60px 230px 60px 230px 60px 230px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    column-gap: 40px;
+
+
+}
+.profile{
+    border-radius: 282px;
+    border: 7px solid #FFBB02;
+    background: #D9D9D9;
+    width: 200px;
+    height: 200px;
+}
+.el--1,
+.el--2,
+.el--3,
+.el--7,
+.el--8,
+.el--9,
+.el--13,
+.el--14,
+.el--15,
+.el--19{
+    align-self:end ;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+
+}
